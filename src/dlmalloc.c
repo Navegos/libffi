@@ -652,6 +652,10 @@ extern "C" {
 
 #if !ONLY_MSPACES
 
+#ifdef _MSC_VER
+#define USE_DL_PREFIX 1
+#endif
+
 /* ------------------- Declarations of public routines ------------------- */
 
 #ifndef USE_DL_PREFIX
