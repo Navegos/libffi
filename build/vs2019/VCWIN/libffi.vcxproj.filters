@@ -68,7 +68,10 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="libffi.def">
+    <None Include="libffi64.def">
+      <Filter>Sources</Filter>
+    </None>
+    <None Include="libffi32.def">
       <Filter>Sources</Filter>
     </None>
   </ItemGroup>

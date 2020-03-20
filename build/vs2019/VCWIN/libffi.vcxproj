@@ -91,11 +91,12 @@
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <FavorSizeOrSpeed />
       <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ModuleDefinitionFile>.\libffi.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>.\libffi64.def</ModuleDefinitionFile>
     </Link>
     <UASM>
       <OutputFormat>2</OutputFormat>
@@ -128,7 +129,7 @@ copy $(OutDir)$(TargetName).pdb $(LIBRARIES_PATH)\libffi\bin\Win64\vc16</Command
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <ModuleDefinitionFile>.\libffi.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>.\libffi64.def</ModuleDefinitionFile>
     </Link>
     <UASM>
       <OutputFormat>2</OutputFormat>
@@ -151,16 +152,22 @@ copy $(OutDir)$(TargetName).lib $(LIBRARIES_PATH)\libffi\lib\Win64\vc16</Command
       <FavorSizeOrSpeed />
       <OmitFramePointers />
       <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImageHasSafeExceptionHandlers>true</ImageHasSafeExceptionHandlers>
-      <ModuleDefinitionFile>.\libffi.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>.\libffi32.def</ModuleDefinitionFile>
     </Link>
     <UASM>
       <OutputFormat>1</OutputFormat>
       <withx86mlib>true</withx86mlib>
+      <UseSafeExceptionHandlers>true</UseSafeExceptionHandlers>
+      <SegmentAlignmentBoundary>3</SegmentAlignmentBoundary>
+      <PackAlignmentBoundary>3</PackAlignmentBoundary>
+      <CNamesDecoratedPrefix>true</CNamesDecoratedPrefix>
+      <SetMemoryModel>7</SetMemoryModel>
     </UASM>
     <PostBuildEvent>
       <Command>copy $(OutDir)$(TargetName)$(TargetExt) $(LIBRARIES_PATH)\libffi\bin\Win32\vc16
@@ -190,11 +197,16 @@ copy $(OutDir)$(TargetName).pdb $(LIBRARIES_PATH)\libffi\bin\Win32\vc16</Command
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <ModuleDefinitionFile>.\libffi.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>.\libffi32.def</ModuleDefinitionFile>
     </Link>
     <UASM>
       <OutputFormat>1</OutputFormat>
       <withx86mlib>true</withx86mlib>
+      <UseSafeExceptionHandlers>true</UseSafeExceptionHandlers>
+      <SegmentAlignmentBoundary>3</SegmentAlignmentBoundary>
+      <PackAlignmentBoundary>3</PackAlignmentBoundary>
+      <CNamesDecoratedPrefix>true</CNamesDecoratedPrefix>
+      <SetMemoryModel>7</SetMemoryModel>
     </UASM>
     <PostBuildEvent>
       <Command>copy $(OutDir)$(TargetName)$(TargetExt) $(LIBRARIES_PATH)\libffi\bin\Win32\vc16
@@ -239,7 +251,8 @@ copy $(OutDir)$(TargetName).lib $(LIBRARIES_PATH)\libffi\lib\Win32\vc16</Command
     <ResourceCompile Include="libffi.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="libffi.def" />
+    <None Include="libffi32.def" />
+    <None Include="libffi64.def" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

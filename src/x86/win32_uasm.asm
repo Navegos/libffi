@@ -94,56 +94,56 @@ FFI_TRAMPOLINE_SIZE     equ 16
     .const
 
         align 4
-        ffi_call_i386_tab isize_t offset ffi_call_i386_tab_0,  offset ffi_call_i386_tab_1,  offset ffi_call_i386_tab_2,  offset ffi_call_i386_tab_3,  offset ffi_call_i386_tab_4,  offset ffi_call_i386_tab_5, \
-                                  offset ffi_call_i386_tab_6,  offset ffi_call_i386_tab_7,  offset ffi_call_i386_tab_8,  offset ffi_call_i386_tab_9,  offset ffi_call_i386_tab_10, offset ffi_call_i386_tab_11, \
-                                  offset ffi_call_i386_tab_12, offset ffi_call_i386_tab_13, offset ffi_call_i386_tab_14, offset ffi_call_i386_tab_15
+        ffi_call_i386_tab dd offset ffi_call_i386_tab_0,  offset ffi_call_i386_tab_1,  offset ffi_call_i386_tab_2,  offset ffi_call_i386_tab_3,  offset ffi_call_i386_tab_4,  offset ffi_call_i386_tab_5, \
+                             offset ffi_call_i386_tab_6,  offset ffi_call_i386_tab_7,  offset ffi_call_i386_tab_8,  offset ffi_call_i386_tab_9,  offset ffi_call_i386_tab_10, offset ffi_call_i386_tab_11, \
+                             offset ffi_call_i386_tab_12, offset ffi_call_i386_tab_13, offset ffi_call_i386_tab_14, offset ffi_call_i386_tab_15
 
         align 4
-        ffi_go_closure_EAX_tab isize_t offset ffi_go_closure_EAX_tab_0,  offset ffi_go_closure_EAX_tab_1,  offset ffi_go_closure_EAX_tab_2,  offset ffi_go_closure_EAX_tab_3,  offset ffi_go_closure_EAX_tab_4,  offset ffi_go_closure_EAX_tab_5, \
-                                       offset ffi_go_closure_EAX_tab_6,  offset ffi_go_closure_EAX_tab_7,  offset ffi_go_closure_EAX_tab_8,  offset ffi_go_closure_EAX_tab_9,  offset ffi_go_closure_EAX_tab_10, offset ffi_go_closure_EAX_tab_11, \
-                                       offset ffi_go_closure_EAX_tab_12, offset ffi_go_closure_EAX_tab_13, offset ffi_go_closure_EAX_tab_14, offset ffi_go_closure_EAX_tab_15
+        ffi_go_closure_EAX_tab dd offset ffi_go_closure_EAX_tab_0,  offset ffi_go_closure_EAX_tab_1,  offset ffi_go_closure_EAX_tab_2,  offset ffi_go_closure_EAX_tab_3,  offset ffi_go_closure_EAX_tab_4,  offset ffi_go_closure_EAX_tab_5, \
+                                  offset ffi_go_closure_EAX_tab_6,  offset ffi_go_closure_EAX_tab_7,  offset ffi_go_closure_EAX_tab_8,  offset ffi_go_closure_EAX_tab_9,  offset ffi_go_closure_EAX_tab_10, offset ffi_go_closure_EAX_tab_11, \
+                                  offset ffi_go_closure_EAX_tab_12, offset ffi_go_closure_EAX_tab_13, offset ffi_go_closure_EAX_tab_14, offset ffi_go_closure_EAX_tab_15
 
         align 4
-        ffi_go_closure_ECX_tab isize_t offset ffi_go_closure_ECX_tab_0,  offset ffi_go_closure_ECX_tab_1,  offset ffi_go_closure_ECX_tab_2,  offset ffi_go_closure_ECX_tab_3,  offset ffi_go_closure_ECX_tab_4,  offset ffi_go_closure_ECX_tab_5, \
-                                       offset ffi_go_closure_ECX_tab_6,  offset ffi_go_closure_ECX_tab_7,  offset ffi_go_closure_ECX_tab_8,  offset ffi_go_closure_ECX_tab_9,  offset ffi_go_closure_ECX_tab_10, offset ffi_go_closure_ECX_tab_11, \
-                                       offset ffi_go_closure_ECX_tab_12, offset ffi_go_closure_ECX_tab_13, offset ffi_go_closure_ECX_tab_14, offset ffi_go_closure_ECX_tab_15
+        ffi_go_closure_ECX_tab dd offset ffi_go_closure_ECX_tab_0,  offset ffi_go_closure_ECX_tab_1,  offset ffi_go_closure_ECX_tab_2,  offset ffi_go_closure_ECX_tab_3,  offset ffi_go_closure_ECX_tab_4,  offset ffi_go_closure_ECX_tab_5, \
+                                  offset ffi_go_closure_ECX_tab_6,  offset ffi_go_closure_ECX_tab_7,  offset ffi_go_closure_ECX_tab_8,  offset ffi_go_closure_ECX_tab_9,  offset ffi_go_closure_ECX_tab_10, offset ffi_go_closure_ECX_tab_11, \
+                                  offset ffi_go_closure_ECX_tab_12, offset ffi_go_closure_ECX_tab_13, offset ffi_go_closure_ECX_tab_14, offset ffi_go_closure_ECX_tab_15
 
         align 4
-        ffi_closure_i386_tab isize_t offset ffi_closure_i386_tab_0,  offset ffi_closure_i386_tab_1,  offset ffi_closure_i386_tab_2,  offset ffi_closure_i386_tab_3,  offset ffi_closure_i386_tab_4,  offset ffi_closure_i386_tab_5, \
-                                     offset ffi_closure_i386_tab_6,  offset ffi_closure_i386_tab_7,  offset ffi_closure_i386_tab_8,  offset ffi_closure_i386_tab_9,  offset ffi_closure_i386_tab_10, offset ffi_closure_i386_tab_11, \
-                                     offset ffi_closure_i386_tab_12, offset ffi_closure_i386_tab_13, offset ffi_closure_i386_tab_14, offset ffi_closure_i386_tab_15
+        ffi_closure_i386_tab dd offset ffi_closure_i386_tab_0,  offset ffi_closure_i386_tab_1,  offset ffi_closure_i386_tab_2,  offset ffi_closure_i386_tab_3,  offset ffi_closure_i386_tab_4,  offset ffi_closure_i386_tab_5, \
+                                offset ffi_closure_i386_tab_6,  offset ffi_closure_i386_tab_7,  offset ffi_closure_i386_tab_8,  offset ffi_closure_i386_tab_9,  offset ffi_closure_i386_tab_10, offset ffi_closure_i386_tab_11, \
+                                offset ffi_closure_i386_tab_12, offset ffi_closure_i386_tab_13, offset ffi_closure_i386_tab_14, offset ffi_closure_i386_tab_15
 
         align 4
-        ffi_go_closure_STDCALL_tab isize_t offset ffi_go_closure_STDCALL_tab_0,  offset ffi_go_closure_STDCALL_tab_1,  offset ffi_go_closure_STDCALL_tab_2,  offset ffi_go_closure_STDCALL_tab_3,  offset ffi_go_closure_STDCALL_tab_4,  offset ffi_go_closure_STDCALL_tab_5, \
-                                           offset ffi_go_closure_STDCALL_tab_6,  offset ffi_go_closure_STDCALL_tab_7,  offset ffi_go_closure_STDCALL_tab_8,  offset ffi_go_closure_STDCALL_tab_9,  offset ffi_go_closure_STDCALL_tab_10, offset ffi_go_closure_STDCALL_tab_11, \
-                                           offset ffi_go_closure_STDCALL_tab_12, offset ffi_go_closure_STDCALL_tab_13, offset ffi_go_closure_STDCALL_tab_14, offset ffi_go_closure_STDCALL_tab_15
+        ffi_go_closure_STDCALL_tab dd offset ffi_go_closure_STDCALL_tab_0,  offset ffi_go_closure_STDCALL_tab_1,  offset ffi_go_closure_STDCALL_tab_2,  offset ffi_go_closure_STDCALL_tab_3,  offset ffi_go_closure_STDCALL_tab_4,  offset ffi_go_closure_STDCALL_tab_5, \
+                                      offset ffi_go_closure_STDCALL_tab_6,  offset ffi_go_closure_STDCALL_tab_7,  offset ffi_go_closure_STDCALL_tab_8,  offset ffi_go_closure_STDCALL_tab_9,  offset ffi_go_closure_STDCALL_tab_10, offset ffi_go_closure_STDCALL_tab_11, \
+                                      offset ffi_go_closure_STDCALL_tab_12, offset ffi_go_closure_STDCALL_tab_13, offset ffi_go_closure_STDCALL_tab_14, offset ffi_go_closure_STDCALL_tab_15
 
         align 4
-        ffi_closure_REGISTER_tab isize_t offset ffi_closure_REGISTER_tab_0,  offset ffi_closure_REGISTER_tab_1,  offset ffi_closure_REGISTER_tab_2,  offset ffi_closure_REGISTER_tab_3,  offset ffi_closure_REGISTER_tab_4,  offset ffi_closure_REGISTER_tab_5, \
-                                         offset ffi_closure_REGISTER_tab_6,  offset ffi_closure_REGISTER_tab_7,  offset ffi_closure_REGISTER_tab_8,  offset ffi_closure_REGISTER_tab_9,  offset ffi_closure_REGISTER_tab_10, offset ffi_closure_REGISTER_tab_11, \
-                                         offset ffi_closure_REGISTER_tab_12, offset ffi_closure_REGISTER_tab_13, offset ffi_closure_REGISTER_tab_14, offset ffi_closure_REGISTER_tab_15
+        ffi_closure_REGISTER_tab dd offset ffi_closure_REGISTER_tab_0,  offset ffi_closure_REGISTER_tab_1,  offset ffi_closure_REGISTER_tab_2,  offset ffi_closure_REGISTER_tab_3,  offset ffi_closure_REGISTER_tab_4,  offset ffi_closure_REGISTER_tab_5, \
+                                    offset ffi_closure_REGISTER_tab_6,  offset ffi_closure_REGISTER_tab_7,  offset ffi_closure_REGISTER_tab_8,  offset ffi_closure_REGISTER_tab_9,  offset ffi_closure_REGISTER_tab_10, offset ffi_closure_REGISTER_tab_11, \
+                                    offset ffi_closure_REGISTER_tab_12, offset ffi_closure_REGISTER_tab_13, offset ffi_closure_REGISTER_tab_14, offset ffi_closure_REGISTER_tab_15
 
         align 4
-        ffi_closure_STDCALL_tab isize_t offset ffi_closure_STDCALL_tab_0,  offset ffi_closure_STDCALL_tab_1,  offset ffi_closure_STDCALL_tab_2,  offset ffi_closure_STDCALL_tab_3,  offset ffi_closure_STDCALL_tab_4,  offset ffi_closure_STDCALL_tab_5, \
-                                        offset ffi_closure_STDCALL_tab_6,  offset ffi_closure_STDCALL_tab_7,  offset ffi_closure_STDCALL_tab_8,  offset ffi_closure_STDCALL_tab_9,  offset ffi_closure_STDCALL_tab_10, offset ffi_closure_STDCALL_tab_11, \
-                                        offset ffi_closure_STDCALL_tab_12, offset ffi_closure_STDCALL_tab_13, offset ffi_closure_STDCALL_tab_14, offset ffi_closure_STDCALL_tab_15
+        ffi_closure_STDCALL_tab dd offset ffi_closure_STDCALL_tab_0,  offset ffi_closure_STDCALL_tab_1,  offset ffi_closure_STDCALL_tab_2,  offset ffi_closure_STDCALL_tab_3,  offset ffi_closure_STDCALL_tab_4,  offset ffi_closure_STDCALL_tab_5, \
+                                   offset ffi_closure_STDCALL_tab_6,  offset ffi_closure_STDCALL_tab_7,  offset ffi_closure_STDCALL_tab_8,  offset ffi_closure_STDCALL_tab_9,  offset ffi_closure_STDCALL_tab_10, offset ffi_closure_STDCALL_tab_11, \
+                                   offset ffi_closure_STDCALL_tab_12, offset ffi_closure_STDCALL_tab_13, offset ffi_closure_STDCALL_tab_14, offset ffi_closure_STDCALL_tab_15
 
         align 4
-        ffi_closure_raw_SYSV_tab isize_t offset ffi_closure_raw_SYSV_tab_0,  offset ffi_closure_raw_SYSV_tab_1,  offset ffi_closure_raw_SYSV_tab_2,  offset ffi_closure_raw_SYSV_tab_3,  offset ffi_closure_raw_SYSV_tab_4,  offset ffi_closure_raw_SYSV_tab_5, \
-                                         offset ffi_closure_raw_SYSV_tab_6,  offset ffi_closure_raw_SYSV_tab_7,  offset ffi_closure_raw_SYSV_tab_8,  offset ffi_closure_raw_SYSV_tab_9,  offset ffi_closure_raw_SYSV_tab_10, offset ffi_closure_raw_SYSV_tab_11, \
-                                         offset ffi_closure_raw_SYSV_tab_12, offset ffi_closure_raw_SYSV_tab_13, offset ffi_closure_raw_SYSV_tab_14, offset ffi_closure_raw_SYSV_tab_15
+        ffi_closure_raw_SYSV_tab dd offset ffi_closure_raw_SYSV_tab_0,  offset ffi_closure_raw_SYSV_tab_1,  offset ffi_closure_raw_SYSV_tab_2,  offset ffi_closure_raw_SYSV_tab_3,  offset ffi_closure_raw_SYSV_tab_4,  offset ffi_closure_raw_SYSV_tab_5, \
+                                    offset ffi_closure_raw_SYSV_tab_6,  offset ffi_closure_raw_SYSV_tab_7,  offset ffi_closure_raw_SYSV_tab_8,  offset ffi_closure_raw_SYSV_tab_9,  offset ffi_closure_raw_SYSV_tab_10, offset ffi_closure_raw_SYSV_tab_11, \
+                                    offset ffi_closure_raw_SYSV_tab_12, offset ffi_closure_raw_SYSV_tab_13, offset ffi_closure_raw_SYSV_tab_14, offset ffi_closure_raw_SYSV_tab_15
 
         align 4
-        ffi_closure_raw_THISCALL_tab isize_t offset ffi_closure_raw_THISCALL_tab_0,  offset ffi_closure_raw_THISCALL_tab_1,  offset ffi_closure_raw_THISCALL_tab_2,  offset ffi_closure_raw_THISCALL_tab_3,  offset ffi_closure_raw_THISCALL_tab_4,  offset ffi_closure_raw_THISCALL_tab_5, \
-                                             offset ffi_closure_raw_THISCALL_tab_6,  offset ffi_closure_raw_THISCALL_tab_7,  offset ffi_closure_raw_THISCALL_tab_8,  offset ffi_closure_raw_THISCALL_tab_9,  offset ffi_closure_raw_THISCALL_tab_10, offset ffi_closure_raw_THISCALL_tab_11, \
-                                             offset ffi_closure_raw_THISCALL_tab_12, offset ffi_closure_raw_THISCALL_tab_13, offset ffi_closure_raw_THISCALL_tab_14, offset ffi_closure_raw_THISCALL_tab_15
+        ffi_closure_raw_THISCALL_tab dd offset ffi_closure_raw_THISCALL_tab_0,  offset ffi_closure_raw_THISCALL_tab_1,  offset ffi_closure_raw_THISCALL_tab_2,  offset ffi_closure_raw_THISCALL_tab_3,  offset ffi_closure_raw_THISCALL_tab_4,  offset ffi_closure_raw_THISCALL_tab_5, \
+                                        offset ffi_closure_raw_THISCALL_tab_6,  offset ffi_closure_raw_THISCALL_tab_7,  offset ffi_closure_raw_THISCALL_tab_8,  offset ffi_closure_raw_THISCALL_tab_9,  offset ffi_closure_raw_THISCALL_tab_10, offset ffi_closure_raw_THISCALL_tab_11, \
+                                        offset ffi_closure_raw_THISCALL_tab_12, offset ffi_closure_raw_THISCALL_tab_13, offset ffi_closure_raw_THISCALL_tab_14, offset ffi_closure_raw_THISCALL_tab_15
 
     .code
 
-    alignfieldproc 4
+    option fieldalign:4
+    option procalign:4
 
-    ;EXTRN     @ffi_closure_inner@8:proc
-    extern fastcall ffi_closure_inner:proc :ptr :ptr
+    extern @ffi_closure_inner@8:proc
 
 ;/* This is declared as
 
@@ -159,8 +159,8 @@ FFI_TRAMPOLINE_SIZE     equ 16
     ;align 16
     ;public @ffi_call_i386@8
     ;@ffi_call_i386@8 proc
-    public fastcall ffi_call_i386 :ptr :ptr
-ffi_call_i386 proc fastcall :ptr :ptr
+    public @ffi_call_i386@8
+@ffi_call_i386@8 proc
     mov         eax,            [esp]       ;/* move the return address */
     mov        [ecx],            ebp         ;/* store ebp into local frame */
     mov        [ecx + 4],        eax         ;/* store retaddr into local frame */
@@ -185,89 +185,89 @@ ffi_call_i386 proc fastcall :ptr :ptr
     mov        [ebp + 8],       ebx          ;/* preserve %ebx */
 
     and         ecx,            X86_RET_TYPE_MASK
-    lea         ebx,           [ffi_call_i386_tab + ecx * size_t_size]
+    lea         ebx,           [ffi_call_i386_tab + ecx * 4]
     mov         ecx,           [ebp + 16]                   ; /* load result address */
     jmp         ebx
 
     ;align 8
-    ffi_call_i386_tab_0 label size_t
+    ffi_call_i386_tab_0 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_FLOAT)
     fstp     dword ptr [ecx]
     jmp      ffi_call_i386_end
 
-    ffi_call_i386_tab_1 label size_t
+    ffi_call_i386_tab_1 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_DOUBLE)
     fstp     qword ptr [ecx]
     jmp      ffi_call_i386_end
 
-    ffi_call_i386_tab_2 label size_t
+    ffi_call_i386_tab_2 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_LDOUBLE)
     fstp     qword ptr [ecx]
     jmp      ffi_call_i386_end
 
-    ffi_call_i386_tab_3 label size_t
+    ffi_call_i386_tab_3 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_SINT8)
     movsx       eax,           al
     mov        [ecx],          eax
     jmp      ffi_call_i386_end
 
-    ffi_call_i386_tab_4 label size_t
+    ffi_call_i386_tab_4 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_SINT16)
     movsx       eax,           ax
     mov        [ecx],          eax
     jmp      ffi_call_i386_end
     
-    ffi_call_i386_tab_5 label size_t
+    ffi_call_i386_tab_5 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_UINT8)
     movzx       eax,           al
     mov        [ecx],          eax
     jmp      ffi_call_i386_end
     
-    ffi_call_i386_tab_6 label size_t
+    ffi_call_i386_tab_6 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_UINT16)
     movzx       eax,           ax
     mov        [ecx],          eax
     jmp      ffi_call_i386_end
     
-    ffi_call_i386_tab_7 label size_t
+    ffi_call_i386_tab_7 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_INT64)
     mov        [ecx + 4],      edx
     mov        [ecx],          eax
     jmp     ffi_call_i386_end
     
-    ffi_call_i386_tab_8 label size_t
+    ffi_call_i386_tab_8 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_INT32)
     mov        [ecx],          eax
     jmp      ffi_call_i386_end
     
-    ffi_call_i386_tab_9 label size_t
+    ffi_call_i386_tab_9 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_VOID)
     jmp      ffi_call_i386_end
 
-    ffi_call_i386_tab_10 label size_t
+    ffi_call_i386_tab_10 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_STRUCTPOP)
     jmp     ffi_call_i386_end
     
-    ffi_call_i386_tab_11 label size_t
+    ffi_call_i386_tab_11 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_STRUCTARG)
     jmp     ffi_call_i386_end
     
-    ffi_call_i386_tab_12 label size_t
+    ffi_call_i386_tab_12 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_STRUCT_1B)
     mov        [ecx],          al
     jmp     ffi_call_i386_end
     
-    ffi_call_i386_tab_13 label size_t
+    ffi_call_i386_tab_13 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_STRUCT_2B)
     mov        [ecx],          ax
     jmp     ffi_call_i386_end
 
     ;/* Fill out the table so that bad values are predictable.  */
-    ffi_call_i386_tab_14 label size_t
+    ffi_call_i386_tab_14 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_UNUSED14)
     jmp     ffi_call_i386_interrupt
     
-    ffi_call_i386_tab_15 label size_t
+    ffi_call_i386_tab_15 label dword
     ;EORG(L(ffi_call_i386_tab), X86_RET_UNUSED15)
     jmp     ffi_call_i386_interrupt
 
@@ -279,7 +279,7 @@ ffi_call_i386 proc fastcall :ptr :ptr
 
     ffi_call_i386_interrupt:
     int 3
-ffi_call_i386 endp
+@ffi_call_i386@8 endp
 
 ;/* The inner helper is declared as
 
@@ -308,87 +308,87 @@ ffi_go_closure_EAX proc c
     ;/* Entry point from preceeding Go closures.  */
     mov        ecx,         esp                          ;/* load closure_data */
     lea        edx,        [esp + closure_FS + 4]       ;/* load incoming stack */
-    call     ffi_closure_inner
+    call     @ffi_closure_inner@8
     and        eax,         X86_RET_TYPE_MASK
-    lea        edx,        [ffi_go_closure_EAX_tab + eax * size_t_size]
+    lea        edx,        [ffi_go_closure_EAX_tab + eax * 4]
     mov        eax,        [esp + closure_CF]           ;/* optimiztic load */
     jmp        edx
 
     ;align 8
     ;ffi_go_closure_EAX_tab:
-    ffi_go_closure_EAX_tab_0 label size_t
+    ffi_go_closure_EAX_tab_0 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_FLOAT)
     fld     dword ptr [esp + closure_CF]
     jmp     ffi_go_closure_EAX_end
     
-    ffi_go_closure_EAX_tab_1 label size_t
+    ffi_go_closure_EAX_tab_1 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_DOUBLE)
     fld     qword ptr [esp + closure_CF]
     jmp     ffi_go_closure_EAX_end
     
-    ffi_go_closure_EAX_tab_2 label size_t
+    ffi_go_closure_EAX_tab_2 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_LDOUBLE)
     fld     qword ptr [esp + closure_CF]
     jmp     ffi_go_closure_EAX_end
     
-    ffi_go_closure_EAX_tab_3 label size_t
+    ffi_go_closure_EAX_tab_3 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_SINT8)
     movsx      eax,         al
     jmp     ffi_go_closure_EAX_end
     
-    ffi_go_closure_EAX_tab_4 label size_t
+    ffi_go_closure_EAX_tab_4 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_SINT16)
     movsx      eax,         ax
     jmp     ffi_go_closure_EAX_end
     
-    ffi_go_closure_EAX_tab_5 label size_t
+    ffi_go_closure_EAX_tab_5 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_UINT8)
     movzx      eax,         al
     jmp     ffi_go_closure_EAX_end
     
-    ffi_go_closure_EAX_tab_6 label size_t
+    ffi_go_closure_EAX_tab_6 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_UINT16)
     movzx      eax,         ax
     jmp     ffi_go_closure_EAX_end
     
-    ffi_go_closure_EAX_tab_7 label size_t
+    ffi_go_closure_EAX_tab_7 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_INT64)
     mov        edx,        [esp + closure_CF + 4]
     jmp     ffi_go_closure_EAX_end
     
-    ffi_go_closure_EAX_tab_8 label size_t
+    ffi_go_closure_EAX_tab_8 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_INT32)
     nop
     jmp     ffi_go_closure_EAX_end
     
-    ffi_go_closure_EAX_tab_9 label size_t
+    ffi_go_closure_EAX_tab_9 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_VOID)
     jmp     ffi_go_closure_EAX_end
     
-    ffi_go_closure_EAX_tab_10 label size_t
+    ffi_go_closure_EAX_tab_10 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_STRUCTPOP)
     jmp     ffi_go_closure_EAX_endp
     
-    ffi_go_closure_EAX_tab_11 label size_t
+    ffi_go_closure_EAX_tab_11 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_STRUCTARG)
     jmp     ffi_go_closure_EAX_end
     
-    ffi_go_closure_EAX_tab_12 label size_t
+    ffi_go_closure_EAX_tab_12 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_STRUCT_1B)
     movzx      eax,         al
     jmp     ffi_go_closure_EAX_end
     
-    ffi_go_closure_EAX_tab_13 label size_t
+    ffi_go_closure_EAX_tab_13 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_STRUCT_2B)
     movzx      eax,         ax
     jmp     ffi_go_closure_EAX_end
 
     ;/* Fill out the table so that bad values are predictable.  */    
-    ffi_go_closure_EAX_tab_14 label size_t
+    ffi_go_closure_EAX_tab_14 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_UNUSED14)
     jmp     ffi_go_closure_EAX_interrupt
     
-    ffi_go_closure_EAX_tab_15 label size_t
+    ffi_go_closure_EAX_tab_15 label dword
     ;EORG(L(ffi_go_closure_EAX_tab), X86_RET_UNUSED15)
     jmp     ffi_go_closure_EAX_interrupt
     
@@ -420,87 +420,87 @@ ffi_go_closure_ECX proc c
     ;/* Entry point from preceeding Go closures.  */
     mov        ecx,        esp                          ;/* load closure_data */
     lea        edx,        [esp + closure_FS + 4]       ;/* load incoming stack */
-    call     ffi_closure_inner
+    call     @ffi_closure_inner@8
     and        eax,        X86_RET_TYPE_MASK
-    lea        edx,        [ffi_go_closure_ECX_tab + eax * size_t_size]
+    lea        edx,        [ffi_go_closure_ECX_tab + eax * 4]
     mov        eax,        [esp + closure_CF]           ;/* optimiztic load */
     jmp        edx
 
     ;align 8
     ;ffi_go_closure_ECX_tab:
-    ffi_go_closure_ECX_tab_0 label size_t
+    ffi_go_closure_ECX_tab_0 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_FLOAT)
     fld     dword ptr [esp + closure_CF]
     jmp     ffi_go_closure_ECX_end
     
-    ffi_go_closure_ECX_tab_1 label size_t
+    ffi_go_closure_ECX_tab_1 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_DOUBLE)
     fld     qword ptr [esp + closure_CF]
     jmp     ffi_go_closure_ECX_end
     
-    ffi_go_closure_ECX_tab_2 label size_t
+    ffi_go_closure_ECX_tab_2 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_LDOUBLE)
     fld     qword ptr [esp + closure_CF]
     jmp     ffi_go_closure_ECX_end
     
-    ffi_go_closure_ECX_tab_3 label size_t
+    ffi_go_closure_ECX_tab_3 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_SINT8)
     movsx      eax,         al
     jmp     ffi_go_closure_ECX_end
     
-    ffi_go_closure_ECX_tab_4 label size_t
+    ffi_go_closure_ECX_tab_4 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_SINT16)
     movsx      eax,         ax
     jmp     ffi_go_closure_ECX_end
     
-    ffi_go_closure_ECX_tab_5 label size_t
+    ffi_go_closure_ECX_tab_5 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_UINT8)
     movzx      eax,         al
     jmp     ffi_go_closure_ECX_end
     
-    ffi_go_closure_ECX_tab_6 label size_t
+    ffi_go_closure_ECX_tab_6 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_UINT16)
     movzx      eax,         ax
     jmp     ffi_go_closure_ECX_end
     
-    ffi_go_closure_ECX_tab_7 label size_t
+    ffi_go_closure_ECX_tab_7 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_INT64)
     mov        edx,        [esp + closure_CF + 4]
     jmp     ffi_go_closure_ECX_end
     
-    ffi_go_closure_ECX_tab_8 label size_t
+    ffi_go_closure_ECX_tab_8 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_INT32)
     nop
     jmp     ffi_go_closure_ECX_end
     
-    ffi_go_closure_ECX_tab_9 label size_t
+    ffi_go_closure_ECX_tab_9 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_VOID)
     jmp     ffi_go_closure_ECX_end
     
-    ffi_go_closure_ECX_tab_10 label size_t
+    ffi_go_closure_ECX_tab_10 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_STRUCTPOP)
     jmp     ffi_go_closure_ECX_endp
     
-    ffi_go_closure_ECX_tab_11 label size_t
+    ffi_go_closure_ECX_tab_11 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_STRUCTARG)
     jmp     ffi_go_closure_ECX_end
     
-    ffi_go_closure_ECX_tab_12 label size_t
+    ffi_go_closure_ECX_tab_12 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_STRUCT_1B)
     movzx      eax,         al
     jmp     ffi_go_closure_ECX_end
     
-    ffi_go_closure_ECX_tab_13 label size_t
+    ffi_go_closure_ECX_tab_13 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_STRUCT_2B)
     movzx      eax,         ax
     jmp     ffi_go_closure_ECX_end
 
     ;/* Fill out the table so that bad values are predictable.  */    
-    ffi_go_closure_ECX_tab_14 label size_t
+    ffi_go_closure_ECX_tab_14 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_UNUSED14)
     jmp     ffi_go_closure_ECX_interrupt
     
-    ffi_go_closure_ECX_tab_15 label size_t
+    ffi_go_closure_ECX_tab_15 label dword
     ;EORG(L(ffi_go_closure_ECX_tab), X86_RET_UNUSED15)
     jmp     ffi_go_closure_ECX_interrupt
     
@@ -536,87 +536,87 @@ ffi_closure_i386 proc c
     ;/* Entry point from preceeding Go closures.  */
     mov        ecx,        esp                    ;/* load closure_data */
     lea        edx,        [esp + closure_FS + 4]     ;/* load incoming stack */
-    call     ffi_closure_inner
+    call     @ffi_closure_inner@8
     and        eax,        X86_RET_TYPE_MASK
-    lea        edx,        [ffi_closure_i386_tab + eax * size_t_size]
+    lea        edx,        [ffi_closure_i386_tab + eax * 4]
     mov        eax,        [esp + closure_CF]       ;/* optimiztic load */
     jmp        edx
 
     ;align 8
     ;ffi_closure_i386_tab:
-    ffi_closure_i386_tab_0 label size_t
+    ffi_closure_i386_tab_0 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_FLOAT)
     fld     dword ptr [esp + closure_CF]
     jmp     ffi_closure_i386_end
     
-    ffi_closure_i386_tab_1 label size_t
+    ffi_closure_i386_tab_1 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_DOUBLE)
     fld     qword ptr [esp + closure_CF]
     jmp     ffi_closure_i386_end
     
-    ffi_closure_i386_tab_2 label size_t
+    ffi_closure_i386_tab_2 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_LDOUBLE)
     fld     qword ptr [esp + closure_CF]
     jmp     ffi_closure_i386_end
     
-    ffi_closure_i386_tab_3 label size_t
+    ffi_closure_i386_tab_3 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_SINT8)
     movsx      eax,         al
     jmp     ffi_closure_i386_end
     
-    ffi_closure_i386_tab_4 label size_t
+    ffi_closure_i386_tab_4 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_SINT16)
     movsx      eax,         ax
     jmp     ffi_closure_i386_end
     
-    ffi_closure_i386_tab_5 label size_t
+    ffi_closure_i386_tab_5 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_UINT8)
     movzx      eax,         al
     jmp     ffi_closure_i386_end
     
-    ffi_closure_i386_tab_6 label size_t
+    ffi_closure_i386_tab_6 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_UINT16)
     movzx      eax,         ax
     jmp     ffi_closure_i386_end
     
-    ffi_closure_i386_tab_7 label size_t
+    ffi_closure_i386_tab_7 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_INT64)
     mov        edx,        [esp + closure_CF + 4]
     jmp     ffi_closure_i386_end
     
-    ffi_closure_i386_tab_8 label size_t
+    ffi_closure_i386_tab_8 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_INT32)
     nop
     jmp     ffi_closure_i386_end
     
-    ffi_closure_i386_tab_9 label size_t
+    ffi_closure_i386_tab_9 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_VOID)
     jmp     ffi_closure_i386_end
     
-    ffi_closure_i386_tab_10 label size_t
+    ffi_closure_i386_tab_10 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_STRUCTPOP)
     jmp     ffi_closure_i386_endp
     
-    ffi_closure_i386_tab_11 label size_t
+    ffi_closure_i386_tab_11 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_STRUCTARG)
     jmp     ffi_closure_i386_end
     
-    ffi_closure_i386_tab_12 label size_t
+    ffi_closure_i386_tab_12 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_STRUCT_1B)
     movzx      eax,         al
     jmp     ffi_closure_i386_end
     
-    ffi_closure_i386_tab_13 label size_t
+    ffi_closure_i386_tab_13 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_STRUCT_2B)
     movzx      eax,         ax
     jmp     ffi_closure_i386_end
 
     ;/* Fill out the table so that bad values are predictable.  */    
-    ffi_closure_i386_tab_14 label size_t
+    ffi_closure_i386_tab_14 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_UNUSED14)
     jmp     ffi_closure_i386_interrupt
     
-    ffi_closure_i386_tab_15 label size_t
+    ffi_closure_i386_tab_15 label dword
     ;EORG(L(ffi_closure_i386_tab), X86_RET_UNUSED15)
     jmp     ffi_closure_i386_interrupt
     
@@ -648,7 +648,7 @@ ffi_go_closure_STDCALL proc c
     ;/* Entry point from preceeding Go closure.  */
     mov       ecx,        esp                    ;/* load closure_data */
     lea       edx,        [esp + closure_FS + 4]     ;/* load incoming stack */
-    call     ffi_closure_inner
+    call     @ffi_closure_inner@8
 
     mov       ecx,        eax
     shr       ecx,        X86_RET_POP_SHIFT          ;/* isolate pop count */
@@ -663,97 +663,97 @@ ffi_go_closure_STDCALL proc c
     ;   will be wrong from one point of view or another.  */
 
     and       eax,         X86_RET_TYPE_MASK
-    lea       edx,        [ffi_go_closure_STDCALL_tab + eax * size_t_size]
+    lea       edx,        [ffi_go_closure_STDCALL_tab + eax * 4]
     mov       eax,        [esp + closure_CF]       ;/* optimiztic load */
     jmp       edx
 
     ;align 8
-    ffi_go_closure_STDCALL_tab_0 label size_t
+    ffi_go_closure_STDCALL_tab_0 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_FLOAT)
     fld    dword ptr [esp + closure_CF]
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_1 label size_t
+    ffi_go_closure_STDCALL_tab_1 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_DOUBLE)
     fld    qword ptr [esp + closure_CF]
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_2 label size_t
+    ffi_go_closure_STDCALL_tab_2 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_LDOUBLE)
     fld    qword ptr [esp + closure_CF]
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_3 label size_t
+    ffi_go_closure_STDCALL_tab_3 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_SINT8)
     movsx     eax,          al
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_4 label size_t
+    ffi_go_closure_STDCALL_tab_4 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_SINT16)
     movsx     eax,          ax
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_5 label size_t
+    ffi_go_closure_STDCALL_tab_5 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_UINT8)
     movzx     eax,          al
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_6 label size_t
+    ffi_go_closure_STDCALL_tab_6 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_UINT16)
     movzx     eax,          ax
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_7 label size_t
+    ffi_go_closure_STDCALL_tab_7 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_INT64)
     mov       edx,         [esp + closure_CF + 4]
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_8 label size_t
+    ffi_go_closure_STDCALL_tab_8 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_INT32)
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_9 label size_t
+    ffi_go_closure_STDCALL_tab_9 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_VOID)
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_10 label size_t
+    ffi_go_closure_STDCALL_tab_10 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_STRUCTPOP)
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_11 label size_t
+    ffi_go_closure_STDCALL_tab_11 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_STRUCTARG)
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_12 label size_t
+    ffi_go_closure_STDCALL_tab_12 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_STRUCT_1B)
     movzx     eax,          al
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
     
-    ffi_go_closure_STDCALL_tab_13 label size_t
+    ffi_go_closure_STDCALL_tab_13 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_STRUCT_2B)
     movzx     eax,          ax
     mov       esp,          ecx
     jmp     ffi_go_closure_STDCALL_end
 
     ;/* Fill out the table so that bad values are predictable.  */
-    ffi_go_closure_STDCALL_tab_14 label size_t
+    ffi_go_closure_STDCALL_tab_14 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_UNUSED14)
     jmp     ffi_go_closure_STDCALL_interrupt
 
-    ffi_go_closure_STDCALL_tab_15 label size_t
+    ffi_go_closure_STDCALL_tab_15 label dword
     ;EORG(L(ffi_go_closure_STDCALL_tab), X86_RET_UNUSED15)
     jmp     ffi_go_closure_STDCALL_interrupt
     
@@ -789,7 +789,7 @@ ffi_closure_REGISTER proc c
     ;/* Entry point from preceeding Go closure.  */
     mov       ecx,        esp                    ;/* load closure_data */
     lea       edx,        [esp + closure_FS + 4]     ;/* load incoming stack */
-    call     ffi_closure_inner
+    call     @ffi_closure_inner@8
 
     mov       ecx,        eax
     shr       ecx,        X86_RET_POP_SHIFT          ;/* isolate pop count */
@@ -804,97 +804,97 @@ ffi_closure_REGISTER proc c
     ;   will be wrong from one point of view or another.  */
 
     and       eax,         X86_RET_TYPE_MASK
-    lea       edx,        [ffi_closure_REGISTER_tab + eax * size_t_size]
+    lea       edx,        [ffi_closure_REGISTER_tab + eax * 4]
     mov       eax,        [esp + closure_CF]       ;/* optimiztic load */
     jmp       edx
 
     ;align 8
-    ffi_closure_REGISTER_tab_0 label size_t
+    ffi_closure_REGISTER_tab_0 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_FLOAT)
     fld    dword ptr [esp + closure_CF]
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_1 label size_t
+    ffi_closure_REGISTER_tab_1 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_DOUBLE)
     fld    qword ptr [esp + closure_CF]
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_2 label size_t
+    ffi_closure_REGISTER_tab_2 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_LDOUBLE)
     fld    qword ptr [esp + closure_CF]
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_3 label size_t
+    ffi_closure_REGISTER_tab_3 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_SINT8)
     movsx     eax,          al
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_4 label size_t
+    ffi_closure_REGISTER_tab_4 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_SINT16)
     movsx     eax,          ax
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_5 label size_t
+    ffi_closure_REGISTER_tab_5 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_UINT8)
     movzx     eax,          al
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_6 label size_t
+    ffi_closure_REGISTER_tab_6 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_UINT16)
     movzx     eax,          ax
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_7 label size_t
+    ffi_closure_REGISTER_tab_7 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_INT64)
     mov       edx,         [esp + closure_CF + 4]
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_8 label size_t
+    ffi_closure_REGISTER_tab_8 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_INT32)
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_9 label size_t
+    ffi_closure_REGISTER_tab_9 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_VOID)
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_10 label size_t
+    ffi_closure_REGISTER_tab_10 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_STRUCTPOP)
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_11 label size_t
+    ffi_closure_REGISTER_tab_11 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_STRUCTARG)
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_12 label size_t
+    ffi_closure_REGISTER_tab_12 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_STRUCT_1B)
     movzx     eax,          al
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
     
-    ffi_closure_REGISTER_tab_13 label size_t
+    ffi_closure_REGISTER_tab_13 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_STRUCT_2B)
     movzx     eax,          ax
     mov       esp,          ecx
     jmp     ffi_closure_REGISTER_end
 
     ;/* Fill out the table so that bad values are predictable.  */
-    ffi_closure_REGISTER_tab_14 label size_t
+    ffi_closure_REGISTER_tab_14 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_UNUSED14)
     jmp     ffi_closure_REGISTER_interrupt
 
-    ffi_closure_REGISTER_tab_15 label size_t
+    ffi_closure_REGISTER_tab_15 label dword
     ;EORG(L(ffi_closure_REGISTER_tab), X86_RET_UNUSED15)
     jmp     ffi_closure_REGISTER_interrupt
     
@@ -928,7 +928,7 @@ ffi_closure_STDCALL proc c
     ;/* Entry point from preceeding Go closure.  */
     mov       ecx,        esp                    ;/* load closure_data */
     lea       edx,        [esp + closure_FS + 4]     ;/* load incoming stack */
-    call     ffi_closure_inner
+    call     @ffi_closure_inner@8
 
     mov       ecx,        eax
     shr       ecx,        X86_RET_POP_SHIFT          ;/* isolate pop count */
@@ -943,97 +943,97 @@ ffi_closure_STDCALL proc c
     ;   will be wrong from one point of view or another.  */
 
     and       eax,         X86_RET_TYPE_MASK
-    lea       edx,        [ffi_closure_STDCALL_tab + eax * size_t_size]
+    lea       edx,        [ffi_closure_STDCALL_tab + eax * 4]
     mov       eax,        [esp + closure_CF]       ;/* optimiztic load */
     jmp       edx
 
     ;align 8
-    ffi_closure_STDCALL_tab_0 label size_t
+    ffi_closure_STDCALL_tab_0 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_FLOAT)
     fld    dword ptr [esp + closure_CF]
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_1 label size_t
+    ffi_closure_STDCALL_tab_1 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_DOUBLE)
     fld    qword ptr [esp + closure_CF]
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_2 label size_t
+    ffi_closure_STDCALL_tab_2 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_LDOUBLE)
     fld    qword ptr [esp + closure_CF]
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_3 label size_t
+    ffi_closure_STDCALL_tab_3 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_SINT8)
     movsx     eax,          al
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_4 label size_t
+    ffi_closure_STDCALL_tab_4 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_SINT16)
     movsx     eax,          ax
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_5 label size_t
+    ffi_closure_STDCALL_tab_5 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_UINT8)
     movzx     eax,          al
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_6 label size_t
+    ffi_closure_STDCALL_tab_6 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_UINT16)
     movzx     eax,          ax
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_7 label size_t
+    ffi_closure_STDCALL_tab_7 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_INT64)
     mov       edx,         [esp + closure_CF + 4]
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_8 label size_t
+    ffi_closure_STDCALL_tab_8 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_INT32)
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_9 label size_t
+    ffi_closure_STDCALL_tab_9 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_VOID)
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_10 label size_t
+    ffi_closure_STDCALL_tab_10 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_STRUCTPOP)
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_11 label size_t
+    ffi_closure_STDCALL_tab_11 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_STRUCTARG)
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_12 label size_t
+    ffi_closure_STDCALL_tab_12 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_STRUCT_1B)
     movzx     eax,          al
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
     
-    ffi_closure_STDCALL_tab_13 label size_t
+    ffi_closure_STDCALL_tab_13 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_STRUCT_2B)
     movzx     eax,          ax
     mov       esp,          ecx
     jmp     ffi_closure_STDCALL_end
 
     ;/* Fill out the table so that bad values are predictable.  */
-    ffi_closure_STDCALL_tab_14 label size_t
+    ffi_closure_STDCALL_tab_14 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_UNUSED14)
     jmp     ffi_closure_STDCALL_interrupt
 
-    ffi_closure_STDCALL_tab_15 label size_t
+    ffi_closure_STDCALL_tab_15 label dword
     ;EORG(L(ffi_closure_STDCALL_tab), X86_RET_UNUSED15)
     jmp     ffi_closure_STDCALL_interrupt
     
@@ -1065,86 +1065,86 @@ ffi_closure_raw_SYSV proc c
     mov       eax,          [ebx+20]                                   ;/* load cif->flags */
     and       eax,           X86_RET_TYPE_MASK
 
-    lea       ecx,          [ffi_closure_raw_SYSV_tab + eax * size_t_size]
+    lea       ecx,          [ffi_closure_raw_SYSV_tab + eax * 4]
     mov       ebx,          [esp + raw_closure_S_FS - 4]
 
     mov       eax,          [esp + 16]                                  ;/* Optimistic load */
     jmp     dword ptr [ecx]
 
     ;align 8
-    ffi_closure_raw_SYSV_tab_0 label size_t
+    ffi_closure_raw_SYSV_tab_0 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_FLOAT)
     fld     dword ptr [esp + 16]
     jmp     ffi_closure_raw_SYSV_end
     
-    ffi_closure_raw_SYSV_tab_1 label size_t
+    ffi_closure_raw_SYSV_tab_1 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_DOUBLE)
     fld     qword ptr [esp + 16]
     jmp     ffi_closure_raw_SYSV_end
     
-    ffi_closure_raw_SYSV_tab_2 label size_t
+    ffi_closure_raw_SYSV_tab_2 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_LDOUBLE)
     fld     qword ptr [esp + 16]
     jmp     ffi_closure_raw_SYSV_end
     
-    ffi_closure_raw_SYSV_tab_3 label size_t
+    ffi_closure_raw_SYSV_tab_3 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_SINT8)
     movsx     eax,           al
     jmp     ffi_closure_raw_SYSV_end
     
-    ffi_closure_raw_SYSV_tab_4 label size_t
+    ffi_closure_raw_SYSV_tab_4 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_SINT16)
     movsx     eax,           ax
     jmp     ffi_closure_raw_SYSV_end
     
-    ffi_closure_raw_SYSV_tab_5 label size_t
+    ffi_closure_raw_SYSV_tab_5 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_UINT8)
     movzx     eax,           al
     jmp     ffi_closure_raw_SYSV_end
     
-    ffi_closure_raw_SYSV_tab_6 label size_t
+    ffi_closure_raw_SYSV_tab_6 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_UINT16)
     movzx     eax,           ax
     jmp     ffi_closure_raw_SYSV_end
     
-    ffi_closure_raw_SYSV_tab_7 label size_t
+    ffi_closure_raw_SYSV_tab_7 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_INT64)
     mov       edx,          [esp + 16 + 4]
     jmp     ffi_closure_raw_SYSV_end
     
-    ffi_closure_raw_SYSV_tab_8 label size_t
+    ffi_closure_raw_SYSV_tab_8 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_INT32)
     nop
     jmp     ffi_closure_raw_SYSV_end
     
-    ffi_closure_raw_SYSV_tab_9 label size_t
+    ffi_closure_raw_SYSV_tab_9 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_VOID)
     jmp     ffi_closure_raw_SYSV_end
     
-    ffi_closure_raw_SYSV_tab_10 label size_t
+    ffi_closure_raw_SYSV_tab_10 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_STRUCTPOP)
     jmp     ffi_closure_raw_SYSV_endp
     
-    ffi_closure_raw_SYSV_tab_11 label size_t
+    ffi_closure_raw_SYSV_tab_11 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_STRUCTARG)
     jmp     ffi_closure_raw_SYSV_end
     
-    ffi_closure_raw_SYSV_tab_12 label size_t
+    ffi_closure_raw_SYSV_tab_12 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_STRUCT_1B)
     movzx     eax,          al
     jmp     ffi_closure_raw_SYSV_end
     
-    ffi_closure_raw_SYSV_tab_13 label size_t
+    ffi_closure_raw_SYSV_tab_13 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_STRUCT_2B)
     movzx     eax,          ax
     jmp     ffi_closure_raw_SYSV_end
 
     ;/* Fill out the table so that bad values are predictable.  */    
-    ffi_closure_raw_SYSV_tab_14 label size_t
+    ffi_closure_raw_SYSV_tab_14 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_UNUSED14)
     jmp     ffi_closure_raw_SYSV_interrupt
     
-    ffi_closure_raw_SYSV_tab_15 label size_t
+    ffi_closure_raw_SYSV_tab_15 label dword
     ;EORG(L(ffi_closure_raw_SYSV_tab), X86_RET_UNUSED15)
     jmp     ffi_closure_raw_SYSV_interrupt
     
@@ -1183,85 +1183,85 @@ ffi_closure_raw_THISCALL proc c
 
     mov       eax,            [ebx + 20]                            ;/* load cif->flags */
     and       eax,             X86_RET_TYPE_MASK
-    lea       ecx,            [ffi_closure_raw_THISCALL_tab + eax * size_t_size]
+    lea       ecx,            [ffi_closure_raw_THISCALL_tab + eax * 4]
     mov       ebx,            [esp + raw_closure_T_FS - 4]
     mov       eax,            [esp + 16]                            ;/* Optimistic load */
     jmp     dword ptr [ecx]
 
     ;align 4
-    ffi_closure_raw_THISCALL_tab_0 label size_t
+    ffi_closure_raw_THISCALL_tab_0 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_FLOAT)
     fld     dword ptr [esp + 16]
     jmp     ffi_closure_raw_THISCALL_end
     
-    ffi_closure_raw_THISCALL_tab_1 label size_t
+    ffi_closure_raw_THISCALL_tab_1 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_DOUBLE)
     fld     qword ptr [esp + 16]
     jmp     ffi_closure_raw_THISCALL_end
     
-    ffi_closure_raw_THISCALL_tab_2 label size_t
+    ffi_closure_raw_THISCALL_tab_2 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_LDOUBLE)
     fld     qword ptr [esp + 16]
     jmp     ffi_closure_raw_THISCALL_end
     
-    ffi_closure_raw_THISCALL_tab_3 label size_t
+    ffi_closure_raw_THISCALL_tab_3 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_SINT8)
     movsx     eax,            al
     jmp     ffi_closure_raw_THISCALL_end
     
-    ffi_closure_raw_THISCALL_tab_4 label size_t
+    ffi_closure_raw_THISCALL_tab_4 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_SINT16)
     movsx     eax,            ax
     jmp     ffi_closure_raw_THISCALL_end
     
-    ffi_closure_raw_THISCALL_tab_5 label size_t
+    ffi_closure_raw_THISCALL_tab_5 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_UINT8)
     movzx     eax,            al
     jmp     ffi_closure_raw_THISCALL_end
     
-    ffi_closure_raw_THISCALL_tab_6 label size_t
+    ffi_closure_raw_THISCALL_tab_6 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_UINT16)
     movzx     eax,            ax
     jmp     ffi_closure_raw_THISCALL_end
     
-    ffi_closure_raw_THISCALL_tab_7 label size_t
+    ffi_closure_raw_THISCALL_tab_7 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_INT64)
     mov       edx,           [esp + 16 + 4]
     jmp     ffi_closure_raw_THISCALL_end
     
-    ffi_closure_raw_THISCALL_tab_8 label size_t
+    ffi_closure_raw_THISCALL_tab_8 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_INT32)
     nop
     jmp     ffi_closure_raw_THISCALL_end
     
-    ffi_closure_raw_THISCALL_tab_9 label size_t
+    ffi_closure_raw_THISCALL_tab_9 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_VOID)
     jmp     ffi_closure_raw_THISCALL_end
     
-    ffi_closure_raw_THISCALL_tab_10 label size_t
+    ffi_closure_raw_THISCALL_tab_10 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_STRUCTPOP)
     jmp     ffi_closure_raw_THISCALL_endp
     
-    ffi_closure_raw_THISCALL_tab_11 label size_t
+    ffi_closure_raw_THISCALL_tab_11 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_STRUCTARG)
     jmp     ffi_closure_raw_THISCALL_end
     
-    ffi_closure_raw_THISCALL_tab_12 label size_t
+    ffi_closure_raw_THISCALL_tab_12 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_STRUCT_1B)
     movzx     eax,            al
     jmp     ffi_closure_raw_THISCALL_end
     
-    ffi_closure_raw_THISCALL_tab_13 label size_t
+    ffi_closure_raw_THISCALL_tab_13 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_STRUCT_2B)
     movzx     eax,            ax
     jmp     ffi_closure_raw_THISCALL_end
 
     ;/* Fill out the table so that bad values are predictable.  */    
-    ffi_closure_raw_THISCALL_tab_14 label size_t
+    ffi_closure_raw_THISCALL_tab_14 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_UNUSED14)
     jmp     ffi_closure_raw_THISCALL_interrupt
     
-    ffi_closure_raw_THISCALL_tab_15 label size_t
+    ffi_closure_raw_THISCALL_tab_15 label dword
     ;EORG(L(ffi_closure_raw_THISCALL_tab), X86_RET_UNUSED15)
     jmp     ffi_closure_raw_THISCALL_interrupt
     
