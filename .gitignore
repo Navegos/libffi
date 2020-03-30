@@ -39,3 +39,4 @@ src/arm/trampoline.S
 .vs
 intermediate/
 output/
+*.err
